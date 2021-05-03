@@ -52,17 +52,10 @@
 }
 
 .YES, .NO{
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .YES {
-	margin-left: 25px;
-}
-
-.img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
+	margin-left: 10px;
 }
