@@ -1,26 +1,25 @@
 <!doctype html>
 <html lang="fr">
 <head>
-	<meta charset="utf-8">
-	<title>p5Game</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"/>
- 	<script src="js/app.js"></script>
+  <meta charset="utf-8">
+  <title>p5Game</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&di	    splay=swap" rel="stylesheet"/>
+  <script src="js/app.js"></script>
 </head>	
-  	<body>
-		<button onclick="openWindow()">open Modal</button>
-		<div class='modal' id='modal'>
-			<div class='modal-header'>
-				<div class='title'>Exemple Modal</div>
-				<button onclick='closeWindow()' class='close-button'>&times;</button>
-			</div>
-
-			<div class='modal-body'>
-				<img class='img'src='assets/petite image.jpeg'></img>
-				<button class='YES'>YES</button>
-				<label>OR</label>
-				<button class='NO'>NO</button>
-			</div>
-		</div>
-	</body>
+  <body>
+  <button onclick="openWindow()" class='open-button'>open Modal</button>
+  <div class='modal' id='modal'>
+    <div class='modal-header'>	
+      <div class='title'>Exemple Modal</div>
+      <button onclick='closeWindow()' class='close-button'>&times;</button>
+    </div>
+    <div class='modal-body'>
+      <img class='img'src='assets/petite image.jpeg'></img>
+	<button class='YES'>YES</button>
+	<label>OR</label>
+	<button class='NO'>NO</button>
+    </div>
+  </div>
+  </body>
 </html>
